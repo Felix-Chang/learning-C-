@@ -71,9 +71,27 @@ int main() {
     // cout << "Your temperature in celsius is: " << c;
 
 
-    
+    // double result = floor(1.2);
+    // double result = pow(2, 3);
+    // cout << result;
 
 
+    // cout << "Enter the radius: ";
+    // double radius;
+    // cin >> radius;
+    // const double pi = 3.14;
+    // double area = pi * pow(radius, 2);
+    // cout << area;
+
+    /*
+    testing comment blocks
+    */
+
+    double price = 99.99;
+    float interestRate = 3.67F;
+    long fileSize = 90000L;
+    char letter = 'a';
+    bool isValid = false;
 
 
 
