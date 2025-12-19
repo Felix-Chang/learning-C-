@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -41,8 +42,38 @@ int main() {
     //      << "y = " << y; 
     
     
+    // double sales = 95000;
+    // cout << "Sales: $" << sales << endl;
+
+    // const double stateTaxRate = .04;
+    // double stateTax = sales * stateTaxRate;
+    // cout << "State Tax: $" << stateTax << endl;
+    
+    // const double countyTaxRate = .02;
+    // double countyTax = sales * countyTaxRate;
+    // cout << "County Tax: $" << countyTax << endl;
+
+    // double totalTax = stateTax + countyTax;
+    // cout << "Total Tax: $" << totalTax;
+
+
+
+    // cout << "enter values for x and y: ";
+    // double x;
+    // double y;
+    // cin >> x >> y;
+    // cout << x + y;
+    
+    // double f;
+    // cout << "Enter a temperature in farenheit: ";
+    // cin >> f;
+    // double c = (f - 32) * 5 / 9;
+    // cout << "Your temperature in celsius is: " << c;
+
 
     
+
+
 
 
 
