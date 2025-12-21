@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cmath>
+#include <cstdlib>
+#include <ctime>
 
 using namespace std;
 
@@ -87,11 +89,33 @@ int main() {
     testing comment blocks
     */
 
-    double price = 99.99;
-    float interestRate = 3.67F;
-    long fileSize = 90000L;
-    char letter = 'a';
-    bool isValid = false;
+    // double price = 99.99;
+    // float interestRate = 3.67F;
+    // long fileSize = 90000L;
+    // char letter = 'a';
+    // bool isValid = false;
+
+    // unsigned int number = 0b11111111; // no negative numbers
+
+
+    // narrowing short -> int okay
+    // int -> short not always okay
+    
+    // long elapsedSeconds = time(nullptr);
+
+    // srand(elapsedSeconds); // srand(time(nullptr))
+    // int number = rand() % 10;
+    // cout << number;
+    
+    const short minValue = 1;
+    const short maxValue = 6;
+
+    srand(time(nullptr));
+    short first = (rand() % (maxValue - minValue + 1)) + minValue; 
+    short second = (rand() % (maxValue - minValue + 1)) + minValue; 
+
+    cout << first << ", " << second;
+
 
 
 
