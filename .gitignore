@@ -4,3 +4,4 @@
 # But not these files
 !.gitignore
 !main.cpp
+!tutorial2.cpp
