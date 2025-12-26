@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <cmath>
 
 using namespace std;
 
@@ -14,11 +15,11 @@ namespace second {
 // typedef std::vector<std::pair<std::string, int>> pairlist_t;
 // typedef std::string text_t;
 
-using text_t = std::string; // alternate, better way of creating new type 
+// using text_t = std::string; // alternate, better way of creating new type 
 
 int main() {
-    string name = "Bro";
-    int x = 0;
+    // std::string name = "Bro";
+    // int x = 0;
 
 
     // using namespace first;
@@ -36,9 +37,39 @@ int main() {
 
     // student++;
 
-    int x = 3.14;
+    // int x = 3.14;
+    // double x = (int) 3.14; --> explicit casting
+    // double x = 3; --> implicit casting
 
-    cout << x;
+    // cout << x;
+
+    // char y = 100; // --> implicitly converts to char type ASCII which is the letter d
+
+    // cout << (char) 100; // --> explicitly converts to char type
+
+    // int correct = 8;
+    // int questions = 10;
+
+    // double score = correct / (double) questions * 100;
+
+    // cout << score << "%";
+
+    // cout << "enter your full name" << endl; 
+    // getline(cin >> ws, name); // getting input that contains space
+
+    // cout << name;
+
+    // double x = 3;
+    // double y = 4;
+    // double z;
+
+    // z = max(x ,y);
+    // z = min(x, y);
+
+    // cout << z;
+
+    
+
 
 
 
