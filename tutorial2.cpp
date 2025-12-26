@@ -68,7 +68,38 @@ int main() {
 
     // cout << z;
 
+
+    // Hypotenuse Calculator
+    // double a;
+    // double b;
+    // double c;
+
+    // cout << "Enter the length of side A: ";
+    // cin >> a;
+
+    // cout << "Enter the length of side B: ";
+    // cin >> b;
+
+    // c = sqrt(pow(a, 2) + pow(b, 2));
+
+    // cout << "The length of side C is " << c << endl;
+
+    // int age;
     
+    // cout << "Enter your age: ";
+    // cin >> age;
+
+    // if (age >= 18) {
+    //     cout << "Welcome!";
+    // }
+    // else if (age <= 0) {
+    //     cout << "Invalid age";
+    // }
+    // else {
+    //     cout << "You can't enter";
+    // }
+
+
 
 
 
