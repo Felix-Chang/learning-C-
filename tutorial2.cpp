@@ -99,6 +99,75 @@ int main() {
     //     cout << "You can't enter";
     // }
 
+    // int month;
+    // cout << "Enter the month (1-12): ";
+    // cin >> month;
+
+    // switch(month){
+    //     case 1:
+    //         cout << "January";
+    //         break;
+    //     case 2:
+    //         cout << "February";
+    //         break;
+    //     case 3:
+    //         cout << "March";
+    //         break;
+    //     case 4:
+    //         cout << "April";
+    //         break;
+    //     case 5:
+    //         cout << "May";
+    //         break;
+    //     case 6:
+    //         cout << "June";
+    //         break;
+    //     case 7:
+    //         cout << "July";
+    //         break;
+    //     case 8:
+    //         cout << "August";
+    //         break;
+    //     case 9:
+    //         cout << "September";
+    //         break;
+    //     case 10:
+    //         cout << "October";
+    //         break;
+    //     case 11:
+    //         cout << "November";
+    //         break;
+    //     case 12:
+    //         cout << "December";
+    //         break;
+    //     default:
+    //         cout << "Please enter a valid number";
+    // }
+
+    // char grade;
+
+    // cout << "What letter grade?: ";
+    // cin >> grade;
+
+    // switch(grade){
+    //     case 'A':
+    //         cout << "You did great!";
+    //         break;
+    //     case 'B':
+    //         cout << "You did good";
+    //         break;
+    //     case 'C':
+    //         cout << "You did ok";
+    //         break;
+    // }
+
+    // int grade = 75;
+
+    // grade >= 60 ? cout << "Pass" : cout << "you fail";
+
+    int number = 9;
+
+    number % 2 == 1 ? cout << "odd" : cout << "even";
 
 
 
@@ -112,5 +181,7 @@ int main() {
 
 
 
+
+    
     return 0;
 }
